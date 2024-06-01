@@ -94,10 +94,9 @@ sender_email = 'your_email@example.com'          # Define the sender's email add
 recipient_emails = ['recipient1@example.com', 'recipient2@example.com']  # Define the recipient email addresses
 attachment_path = 'path/to/your/csvfile.csv'     # Define the path to the CSV file to be attached
 
-send_email_with_attachment(smtp_server, smtp_port, smtp_user, smtp_password, subject, body, sender_email, recipient_emails, attachment_path)  # Call the function to send the email with the attachment
-
-
-## Common Email Providers
+send_email_with_attachment(smtp_server, smtp_port, smtp_user, smtp_password, subject, body, sender_email, recipient_emails, attachment_path)  # Call the function to send the email with the attachment.
+```
+# Common Email Providers
 
 - **Gmail**:
   - SMTP server: `smtp.gmail.com`
