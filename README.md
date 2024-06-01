@@ -95,3 +95,51 @@ recipient_emails = ['recipient1@example.com', 'recipient2@example.com']  # Defin
 attachment_path = 'path/to/your/csvfile.csv'     # Define the path to the CSV file to be attached
 
 send_email_with_attachment(smtp_server, smtp_port, smtp_user, smtp_password, subject, body, sender_email, recipient_emails, attachment_path)  # Call the function to send the email with the attachment
+
+
+## Common Email Providers
+
+- **Gmail**:
+  - SMTP server: `smtp.gmail.com`
+  - Port: 587 (with TLS) or 465 (with SSL)
+  - Requires SSL: Yes
+  - Requires TLS: Yes (if available)
+  - Requires Authentication: Yes
+  - Username: Your Gmail address (e.g., `your_email@gmail.com`)
+  - Password: Your Gmail password (or app-specific password if 2-step verification is enabled)
+
+- **Outlook/Hotmail**:
+  - SMTP server: `smtp-mail.outlook.com`
+  - Port: 587 (with TLS)
+  - Requires SSL: Yes
+  - Requires TLS: Yes (if available)
+  - Requires Authentication: Yes
+  - Username: Your Outlook/Hotmail address (e.g., `your_email@hotmail.com`)
+  - Password: Your Outlook/Hotmail password
+
+- **Yahoo Mail**:
+  - SMTP server: `smtp.mail.yahoo.com`
+  - Port: 587 (with TLS) or 465 (with SSL)
+  - Requires SSL: Yes
+  - Requires TLS: Yes (if available)
+  - Requires Authentication: Yes
+  - Username: Your Yahoo Mail address (e.g., `your_email@yahoo.com`)
+  - Password: Your Yahoo Mail password
+
+- **Office 365**:
+  - SMTP server: `smtp.office365.com`
+  - Port: 587 (with TLS)
+  - Requires SSL: Yes
+  - Requires TLS: Yes (if available)
+  - Requires Authentication: Yes
+  - Username: Your Office 365 address (e.g., `your_email@yourdomain.com`)
+  - Password: Your Office 365 password
+
+- **iCloud**:
+  - SMTP server: `smtp.mail.me.com`
+  - Port: 587 (with TLS) or 465 (with SSL)
+  - Requires SSL: Yes
+  - Requires TLS: Yes (if available)
+  - Requires Authentication: Yes
+  - Username: Your iCloud email address (e.g., `your_email@me.com`)
+  - Password: Your iCloud email password
